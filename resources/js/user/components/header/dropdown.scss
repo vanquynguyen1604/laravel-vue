@@ -1,0 +1,71 @@
+@import "~User/libraries/scss/_variables.scss";
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  display: none;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  color: #212529;
+  list-style: none;
+  background-color: #fff;
+  z-index: 1030;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+}
+
+.dropdown-profile {
+  float: right;
+  right: 0;
+  min-width: 7rem;
+  padding: 0;
+
+  & ul {
+    width: 100%;
+    padding: 0;
+    outline: 0;
+  }
+
+  &__item {
+    list-style-type: none;
+    cursor: pointer;
+  }
+
+  &__item  a {
+    text-decoration: none!important;
+    color: #3F3A31!important;
+    font-size: 16px;
+    line-height: 30px;
+
+    i {
+      color: #020202;
+      font-size: 13px;
+      margin-right: 10px;
+      padding-left: 9px;
+    }
+  }
+
+  &__item:hover a {
+    color: #FFCA7C!important;
+  }
+
+  &__item:hover i {
+    color: #FFCA7C;
+  }
+}
+
+.dropdown-notification {
+  left: -160px;
+  margin-top: 5px;
+  min-width: 10rem;
+  padding-left: 15px;
+  font-size: 15px;
+
+  a {
+    text-decoration: none!important;
+  }
+}
+
+.dropdown-display {
+  display: block;
+}

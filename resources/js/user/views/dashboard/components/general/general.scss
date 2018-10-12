@@ -1,0 +1,209 @@
+.general {
+  display: flex;
+
+  &__total-left {
+    display: flex;
+    flex: 11;
+  }
+
+  &__total-left-item {
+    flex: 4;
+    height: 133px;
+    margin-right: 20px;
+    padding: 10px 20px;		
+    border-radius: 3px;	
+    background-color: #FFFFFF;	
+    box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.1);
+  }
+
+  &__item-last {
+    margin-right: 0;
+  }
+
+  &__total-left-title {
+    color: #A49C8F;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  &__total-amount {
+    color: #3F3A31;
+    font-family: 'Bariol-Regular';
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 31px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  &__total-icon {
+    font-size: 17pt;
+    color: #FFCA7C;
+  }
+
+  &__total-percent-number {
+    color: #FFCA7C;
+    font-family: 'Bariol-Regular';
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 3px;
+  }
+
+  &__progress-bar {
+    width: 100%;
+    height: 13px;
+    background-color: #bbb;
+    border-radius: 13px;
+    margin-bottom: 5px;
+  }
+
+  &__progress-total-percent{
+    height: 13px;
+    border-radius: 10px;
+    background-color: #FFCA7C;
+  }
+
+  &__percent-title {
+    color: #A49C8F;
+    font-family: 'Bariol-Regular';
+    font-size: 12px;
+    line-height: 13px;
+    margin: 0;
+  }
+
+  &__total-left-install {
+    display: flex;
+
+    .total-install-amount {
+      flex: 1;
+      text-align: center;
+    }
+
+    .total-install-statis {
+      flex: 3;
+      margin-left: 100px;
+      margin-top: 15px;
+
+      .total-install-month {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: flex-end;
+
+        .total-month {
+          margin-right: 9px;
+          padding-left: 17px;
+          color: #A49C8F;
+          font-family: 'Bariol-Regular';
+          font-size: 16px;
+          line-height: 17px;
+          text-align: center
+        }
+
+        .total-month-amount {
+          color: #A49C8F;
+          font-family: 'Bariol-Regular';
+          font-weight: bold;
+          font-size: 16px;
+          font-weight: bold;
+          line-height: 17px;
+        }
+          
+      }
+
+      .total-install-year {
+          display: flex;
+          justify-content: flex-end;
+
+          .total-this-year {
+            margin-right: 10px;
+            color: #A49C8F;
+            font-family: 'Bariol-Regular';
+            font-size: 16px;
+            line-height: 17px;
+            text-align: center;
+          }
+
+          .total-this-year-amount {
+            color: #A49C8F;
+            font-family: 'Bariol-Regular';
+            font-weight: bold;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 17px;
+          }
+      }
+    }
+
+  }
+
+  &__total-left-user {
+    display: flex;
+
+    .total-user-amount {
+      flex: 1;
+      text-align: center;
+    }
+
+    .total-user-percent {
+      flex: 3;
+      margin-left: 100px;
+    }
+
+  }
+
+  &__total-right {
+    display: flex;
+    flex: 3;
+    margin-left: 25px;
+
+    i {
+      color: #FFFFFF;
+      font-size: 17pt;
+    }
+  }
+
+  &__total-right-title {
+    color: #FFFFFF;
+    font-family: 'Bariol-Regular';
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 17px;
+  }
+
+  &__total-right-amount {
+    color: #FFFFFF;
+    font-family: 'Bariol-Regular';
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  &__total-right-topic {
+    flex: 6;
+    display: flex;
+    height: 133px;
+    flex-direction: column;
+    background: linear-gradient(133.62deg, #61EFFA 0%, #34DADE 100%);	
+    box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.1);
+    font-weight: bold;
+    text-align: center;
+    border-radius: 3px;
+    padding: 10px 20px;
+
+  }
+
+  &__total-right-lesson {
+    flex: 6;
+    display: flex;
+    height: 133px;
+    flex-direction: column;
+    background: linear-gradient(133.62deg, #FBDE76 0%, #F5C858 100%);	
+    box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.1);
+    font-weight: bold;
+    text-align: center;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin-left: 20px
+  }
+}

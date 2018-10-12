@@ -1,0 +1,56 @@
+@import "./variables";
+@import "./spinner";
+@import "./form";
+@import "./modal";
+
+@font-face {
+  font-family: 'Bariol-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bariol-Regular'), url('~Admin/libraries/fonts/Bariol.woff') format('woff');
+}
+
+body {
+  margin: 0px;
+  background-color: #f2f2f2;
+  font-family: 'Bariol-Regular';
+  font-weight: normal;
+}
+
+.main {
+  height: 100vh;
+  position: relative;
+}
+
+.wrapper {
+  height: calc(100vh - #{$header-height});
+  display: flex;
+
+  &--content {
+    width: calc(100vw - #{$sidebar-width});
+    height: 100%;
+    float: left;
+    overflow-y: auto;
+    position: relative;
+
+    .vPagination {
+      a {
+        background-color: rgba(0,0,0,0.05)!important;
+      }
+
+      .active a, .bPageControlButton a {
+        background: linear-gradient(133.62deg, #FBDE76 0%, #F5C858 100%)!important;
+        font-weight: bold;
+        font-size: 14px;
+        font-family: 'Bariol-Regular';
+        color: #FFF!important;
+      }
+
+      li a {
+        border-radius: 3px!important;
+        box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.1)!important;
+        margin-right: 10px!important;
+      }
+    }
+  }
+}

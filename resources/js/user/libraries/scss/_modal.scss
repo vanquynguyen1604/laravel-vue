@@ -1,0 +1,115 @@
+.md-dialog {
+  background-color: #fff;
+}
+
+.font-title {
+  margin-top: 10px;
+  font-family: 'Bariol-Regular';
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 35px;
+}
+
+.font-color {
+  color: #FFB438;
+}
+
+.content-detail {
+  display: flex;
+
+  input {
+    background-color: #f8f8f8!important;
+    width: 95%!important;
+  }
+
+  .item-p {
+    margin: 0.375rem 0.75rem;
+  }
+
+  &__left {
+    flex: 6;
+    margin-right: 75px;
+  }
+
+  &__right {
+    flex: 6;
+  }
+}
+
+.content-add {
+  display: flex;
+
+  input {
+    background-color: #f8f8f8!important;
+    width: 95%!important;
+  }
+
+  textarea {
+    background-color: #f8f8f8!important;
+    width: 95%!important;
+  }
+
+  .item-p {
+    margin: 0.375rem 0.75rem;
+  }
+
+  &__left {
+    flex: 6;
+    margin-right: 50px;
+  }
+
+  &__right {
+    flex: 6;
+  }
+
+  &__footer {
+    input {
+      background-color: #f8f8f8!important;
+      width: 95%!important;
+    }
+
+    textarea {
+      background-color: #f8f8f8!important;
+      width: 98%!important;
+    }
+  }
+
+  .md-field {
+      margin: 0;
+      padding: 0;
+  }
+
+}
+
+.content-detail-footer {
+  .item-p {
+    margin: 0.375rem 0.75rem;
+  }
+}
+
+.modal-title {
+  text-transform: uppercase;
+  color: #A49C8F;
+  font-family: 'Bariol-Regular';
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.close-modal {
+  background: linear-gradient(319.31deg, #FF924C 0%, #FFA469 100%);
+}
+
+.btn-save {
+  background: linear-gradient(133.62deg, #99F8DF 0%, #7DDAC2 100%);
+  cursor: pointer;
+}
+
+.md-button-content {
+  color: #fff !important;
+  margin-top: 4px;
+}
+
+.md-menu-content.md-select-menu {
+  top: 175px!important;
+  background-color: white;
+}
